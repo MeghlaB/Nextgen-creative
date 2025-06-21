@@ -1,0 +1,32 @@
+[
+    {
+        "brand_name": "Raspi",
+        "description": "High-quality electronics for everyday needs.",
+        "brand_logo": "https://download.logo.wine/logo/Raspberry_Pi/Raspberry_Pi-Logo.wine.png"
+    },
+    {
+        "brand_name": "Nike",
+        "description": "Footbale fashion for all seasons and styles.",
+        "brand_logo": "https://pngimg.com/d/nike_PNG6.png"
+    },
+    {
+        "brand_name": "Brand C",
+        "description": "Affordable home decor with style.",
+        "brand_logo": "https://t3.ftcdn.net/jpg/05/19/67/42/360_F_519674216_y6iDAZpwziMAVyfzGJxrDmyaCpvnnHmQ.jpg"
+    },
+    {
+        "brand_name": "Brand D",
+        "description": "Premium beauty products for all skin types.",
+        "brand_logo": "https://png.pngtree.com/png-vector/20220708/ourmid/pngtree-skin-care-logo-png-image_5774040.png"
+    },
+    {
+        "brand_name": "Brand E",
+        "description": "Tech gadgets for the modern lifestyle.",
+        "brand_logo": "https://static.vecteezy.com/system/resources/thumbnails/008/020/759/small_2x/find-gadget-logo-vector.jpg"
+    },
+    {
+        "brand_name": "Brand F",
+        "description": "Organic food products delivered to your doorstep.",
+        "brand_logo": "https://png.pngtree.com/png-vector/20220708/ourmid/pngtree-fast-food-logo-png-image_5763171.png"
+    }
+]

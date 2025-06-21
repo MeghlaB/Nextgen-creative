@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --font-nunito: 'Nunito', sans-serif;
+}
+
+#root {
+    @apply font-nunito;
+}
+
+.navbarTop {
+    @apply bg-white shadow-md w-full z-50 fixed top-0 transition-all;
+}
+
+.navbar-item {
+    @apply block text-gray-800 hover:text-green-700 py-2 lg:py-0 font-bold;
+}
+
+a,
+span {
+    @apply inline-block;
+}
+
+.section-title {
+    @apply max-xl:text-3xl max-w-full overflow-hidden max-sm:text-xl text-4xl font-bold mt-8 text-center w-full;
+}
+
+
+.formInput {
+    @apply w-full px-4 py-2 mt-1 rounded-md border border-white text-white focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.formInput option{
+    @apply  bg-green-900
+}

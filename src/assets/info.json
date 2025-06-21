@@ -1,0 +1,556 @@
+{
+    "siteName": "NEXTGEN CREATIVE SOLUTION",
+    "siteLogo": "/logo.png",
+    "siteEmail": "nextgencreativesolutions@hotmail.com",
+    "sitePhone": "+65 9342 7892",
+    "whatsapp": "6593427892",
+    "siteAddress": "15 Tuas View Close, South Ave 6, 637485",
+    "facebook": "",
+    "twitter": "",
+    "instagram": "",
+    "linkedin": "",
+    "whatsApp":"",
+    
+    
+      "services": [
+        {
+          "id": "web-dev",
+          "title": "Web Development",
+          "description": "Building responsive and high-quality web applications.",
+          "image": "https://i.pinimg.com/originals/bb/37/5c/bb375cdd655184ca2715ac5059e73651.gif",
+          "pricingPlans": [
+            {
+              "name": "Basic",
+              "monthly": "$250",
+              "yearly": "$1999",
+              "features": [
+                "5 Custom Pages",
+                "Responsive Design",
+                "Basic SEO",
+                "1 Month Free Support"
+              ]
+            },
+            {
+              "name": "Green",
+              "monthly": "$299",
+              "yearly": "$2799",
+              "features": [
+                "10 Pages",
+                "Advanced SEO",
+                "Blog + CMS",
+                "3 Months Support"
+              ]
+            },
+            {
+              "name": "Enterprise",
+              "monthly": "$499",
+              "yearly": "$4999",
+              "features": [
+                "Unlimited Pages",
+                "Full-stack Development",
+                "Performance Optimization",
+                "6 Months Premium Support"
+              ],
+              "discountedPrice": {
+                "monthly": "$449",
+                "yearly": "$4499"
+              },
+              "offer": "Save $50 on Monthly Plan and $500 on Yearly Plan"
+            }
+          ]
+        },
+        {
+          "id": "mobile-app",
+          "title": "Mobile App Development",
+          "description": "Creating user-friendly and efficient mobile applications.",
+          "image": "https://img.flexifunnels.com/images/201/MobileAppDevelopment_a3ote_1000.gif",
+          "pricingPlans": [
+            {
+              "name": "Starter",
+              "monthly": "$249",
+              "yearly": "$2199",
+              "features": [
+                "Android or iOS App",
+                "Basic UI/UX",
+                "API Integration",
+                "1 Month Free Support"
+              ]
+            },
+            {
+              "name": "Green",
+              "monthly": "$399",
+              "yearly": "$3699",
+              "features": [
+                "Cross-platform (Flutter/React Native)",
+                "Advanced UI",
+                "Push Notifications",
+                "3 Months Support"
+              ]
+            },
+            {
+              "name": "Enterprise",
+              "monthly": "$499",
+              "yearly": "$4999",
+              "features": [
+                "Cross-platform (Flutter/React Native)",
+                "Advanced UI",
+                "Push Notifications",
+                "3 Months Support"
+              ],
+              "discountedPrice": {
+                "monthly": "$449",
+                "yearly": "$4499"
+              },
+              "offer": "Save $50 on Monthly Plan and $500 on Yearly Plan"
+            }
+          ]
+        },
+        {
+          "id": "ui-ux",
+          "title": "UI/UX Design",
+          "description": "Designing intuitive and engaging user interfaces.",
+          "image": "https://indoanalytica.com/static/images/Web-design-5.gif",
+          "pricingPlans": [
+            {
+              "name": "Basic",
+              "monthly": "$99",
+              "yearly": "$899",
+              "features": [
+                "2 Screen Designs",
+                "Mobile First",
+                "Figma Source",
+                "Design Revisions (2)"
+              ]
+            },
+            {
+              "name": "Green",
+              "monthly": "$199",
+              "yearly": "$1799",
+              "features": [
+                "Up to 10 Screens",
+                "Interactive Prototypes",
+                "Design System",
+                "Revisions (Unlimited)"
+              ]
+            },
+            {
+              "name": "Enterprise",
+              "monthly": "$499",
+              "yearly": "$4999",
+              "features": [
+                "Unlimited Screens",
+                "Interactive Prototypes",
+                "Design System",
+                "Revisions (Unlimited)"
+              ],
+              "discountedPrice": {
+                "monthly": "$449",
+                "yearly": "$4499"
+              },
+              "offer": "Save $50 on Monthly Plan and $500 on Yearly Plan"
+            }
+          ]
+        },
+        {
+          "id": "graphics",
+          "title": "Graphics Design",
+          "description": "Creating visually appealing and user-friendly graphic elements.",
+          "image": "https://www.globaldezigns.com/images/Flyers-Posters-Designing-page.gif",
+          "pricingPlans": [
+            {
+              "name": "Basic",
+              "monthly": "$59",
+              "yearly": "$599",
+              "features": [
+                "Social Media Posts (10/month)",
+                "Flyers",
+                "Poster Design"
+              ]
+            },
+            {
+              "name": "Green",
+              "monthly": "$129",
+              "yearly": "$1299",
+              "features": [
+                "Unlimited Posts",
+                "Logo & Branding",
+                "Animations",
+                "Ad Creatives"
+              ]
+            },
+            {
+              "name": "Enterprise",
+              "monthly": "$499",
+              "yearly": "$4999",
+              "features": [
+                "Unlimited Posts",
+                "Logo & Branding",
+                "Animations",
+                "Ad Creatives"
+              ],
+              "discountedPrice": {
+                "monthly": "$449",
+                "yearly": "$4499"
+              },
+              "offer": "Save $50 on Monthly Plan and $500 on Yearly Plan"
+            }
+          ]
+        },
+        {
+          "id": "custom-app",
+          "title": "Custom Application Development",
+          "description": "Building custom apps tailored to business needs with smooth performance.",
+          "image": "https://i.giphy.com/qgQUggAC3Pfv687qPC.webp",
+          "pricingPlans": [
+            {
+              "name": "Basic",
+              "monthly": "$399",
+              "yearly": "$3999",
+              "features": [
+                "One Platform Only",
+                "API Development",
+                "Custom Admin Panel",
+                "2 Months Free Support"
+              ]
+            },
+            {
+              "name": "Green",
+              "monthly": "$699",
+              "yearly": "$6799",
+              "features": [
+                "Cross Platform",
+                "Real-Time Features",
+                "Analytics Dashboard",
+                "Dedicated Support"
+              ]
+            },
+            {
+              "name": "Enterprise",
+              "monthly": "$499",
+              "yearly": "$4999",
+              "features": [
+                "Cross Platform",
+                "Real-Time Features",
+                "Analytics Dashboard",
+                "Dedicated Support"
+              ],
+              "discountedPrice": {
+                "monthly": "$449",
+                "yearly": "$4499"
+              },
+              "offer": "Save $50 on Monthly Plan and $500 on Yearly Plan"
+            }
+          ]
+        },
+        {
+          "id": "crm",
+          "title": "CRM Management System",
+          "description": "Developing tools to manage customer relationships efficiently.",
+          "image": "https://i0.wp.com/www.intechspace.com/wp-content/uploads/2023/01/CRM-animation-3.gif?w=1200&ssl=1",
+          "pricingPlans": [
+            {
+              "name": "Basic",
+              "monthly": "$199",
+              "yearly": "$1799",
+              "features": [
+                "Customer Database",
+                "Lead Tracking",
+                "Task Management"
+              ]
+            },
+            {
+              "name": "Green",
+              "monthly": "$349",
+              "yearly": "$3299",
+              "features": [
+                "Automation Tools",
+                "Advanced Reporting",
+                "Email Integration",
+                "User Roles & Permissions"
+              ]
+            },
+            {
+              "name": "Enterprise",
+              "monthly": "$499",
+              "yearly": "$4999",
+              "features": [
+                "Customer Database",
+                "Lead Tracking",
+                "Task Management",
+                "Automation Tools",
+                "Advanced Reporting"
+              ],
+              "discountedPrice": {
+                "monthly": "$449",
+                "yearly": "$4499"
+              },
+              "offer": "Save $50 on Monthly Plan and $500 on Yearly Plan"
+            }
+          ]
+        }
+      ]
+    ,
+    
+    "testimonials": [
+        {
+            "name": "Anna Lei",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg_52ohYMqFwf18gOAaAwpLdIH_Qf54wq0ybk_py8EkNjnss9KfpSo1YuQCdvpT7Rp_rwguoAsBgQ9uP03agZY0w",
+            "rating": 5,
+            "text": "Working with Samiha was an absolute pleasure. His skills in web development are unmatched!"
+        },
+        {
+            "name": "Sarah Lee",
+            "image": "https://innovation.gwu.edu/sites/g/files/zaxdzs4966/files/2023-01/bobheadshotrect.jpg",
+            "rating": 4,
+            "text": "Samiha delivered our project on time with exceptional quality. Highly recommend him!"
+        },
+        {
+            "name": "Mike Thomson",
+            "image": "https://media.licdn.com/dms/image/v2/C5103AQGXAV2-OR0E6A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516985328996?e=2147483647&v=beta&t=n48mZ9IChQ07ZO1OUmbqu6z7IuGH3dTtjniDbOmajsk",
+            "rating": 5,
+            "text": "Samiha's expertise in React and Tailwind made our application standout. Truly a professional!"
+        },
+        {
+            "name": "Emily Brown",
+            "image": "https://randomuser.me/api/portraits/women/50.jpg",
+            "rating": 5,
+            "text": "Fantastic communication and dedication throughout the project. Thank you, Samiha!"
+        },
+        {
+            "name": "James Carter",
+            "image": "https://randomuser.me/api/portraits/men/60.jpg",
+            "rating": 5,
+            "text": "The portfolio website Samiha created for us exceeded our expectations. Brilliant work!"
+        },
+        {
+            "name": "Sophia Williams",
+            "image": "https://randomuser.me/api/portraits/women/44.jpg",
+            "rating": 5,
+            "text": "Samiha's creativity and technical skills are simply remarkable. Highly recommend him for any project!"
+        }
+    ],
+    "skills": {
+        "frontend": [
+            {
+                "name": "JavaScript",
+                "image": "https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
+            },
+            {
+                "name": "React",
+                "image": "https://cdn-icons-png.flaticon.com/512/1126/1126012.png"
+            },
+            {
+                "name": "Vite",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/1039px-Vitejs-logo.svg.png"
+            },
+            {
+                "name": "HTML5",
+                "image": "https://cdn-icons-png.flaticon.com/512/732/732212.png"
+            },
+            {
+                "name": "CSS3",
+                "image": "https://cdn-icons-png.flaticon.com/512/732/732190.png"
+            },
+            {
+                "name": "Sass",
+                "image": "https://cdn-icons-png.flaticon.com/512/919/919831.png"
+            },
+            {
+                "name": "Bootstrap",
+                "image": "https://cdn-icons-png.flaticon.com/512/732/732190.png"
+            },
+            {
+                "name": "Tailwind",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png"
+            }
+        ],
+        "backend": [
+            {
+                "name": "MongoDB",
+                "image": "https://static-00.iconduck.com/assets.00/mongodb-compass-icon-1024x1022-nlsyv7es.png"
+            },
+            {
+                "name": "Node js",
+                "image": "https://static-00.iconduck.com/assets.00/node-js-icon-1817x2048-g8tzf91e.png"
+            },
+            {
+                "name": "Express.js",
+                "image": "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png"
+            },
+            {
+                "name": "Python",
+                "image": "https://cdn-icons-png.flaticon.com/512/919/919852.png"
+            },
+            {
+                "name": "Firebase",
+                "image": "https://cdn.freebiesupply.com/logos/large/2x/firebase-1-logo-png-transparent.png"
+            }
+        ],
+        "graphics": [
+            {
+                "name": "After Effect",
+                "image": "https://cdn-icons-png.flaticon.com/128/5210/5210884.png"
+            },
+            {
+                "name": "Premire Pro",
+                "image": "https://cdn-icons-png.flaticon.com/128/5210/5210860.png"
+            },
+            {
+                "name": "Illustrator",
+                "image": "https://cdn-icons-png.flaticon.com/128/5968/5968472.png"
+            },
+            {
+                "name": "Photoshop",
+                "image": "https://cdn-icons-png.flaticon.com/128/5968/5968520.png"
+            },
+            {
+                "name": "Animation",
+                "image": "https://cdn-icons-png.flaticon.com/128/5210/5210669.png"
+            },
+            {
+                "name": "Canva",
+                "image": "https://www.cdnlogo.com/logos/c/41/canva.svg"
+            },
+            {
+                "name": "Figma",
+                "image": "https://cdn-icons-png.flaticon.com/128/5968/5968705.png"
+            }
+        ],
+        "other": [
+            {
+                "name": "Git",
+                "image": "https://cdn-icons-png.flaticon.com/512/2111/2111288.png"
+            },
+            {
+                "name": "Linux",
+                "image": "https://cdn-icons-png.flaticon.com/128/6124/6124995.png"
+            },
+            {
+                "name": "MS Office",
+                "image": "https://cdn-icons-png.flaticon.com/128/888/888867.png"
+            }
+        ]
+    },
+    "experiences": [
+        {
+            "year": "2024-2025",
+            "company": "UGV Programming Club",
+            "website": "https://www.facebook.com/ugvprogrammingclub",
+            "position": "Creative Designer",
+            "location": "Barisal"
+        },
+        {
+            "year": "2023-2024",
+            "company": "Fortune Technology",
+            "website": "https://www.linkedin.com/company/fortune-tech/",
+            "position": "Robotic Engineer",
+            "location": "Barisal"
+        },
+        {
+            "year": "2023-2024",
+            "company": "Fortune Barishal",
+            "website": "https://www.facebook.com/FortuneBarishalOfficial/",
+            "position": "Video Editor",
+            "location": "Barisal"
+        },
+        {
+            "year": "2022-2023",
+            "company": "MindLeap Limited",
+            "website": "https://www.facebook.com/profile.php?id=61550735392327",
+            "position": "Campus Ambassador",
+            "location": "Dhaka"
+        },
+        {
+            "year": "2021-2022",
+            "company": "Non-Conformist Inc.",
+            "website": "https://nonconformistinc.com/",
+            "position": "Web developer",
+            "location": "Dhaka"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Gamers Review",
+            "cover": "/ss-1.png",
+            "liveUrl": "https://jade-sprinkles-2cf46d.netlify.app/"
+        },
+        {
+            "title": "Discount PRO",
+            "cover": "/ss-2.png",
+            "liveUrl": "https://cupon-discount.netlify.app/"
+        },
+        {
+            "title": "Peddy",
+            "cover": "/ss-3.png",
+            "liveUrl": "https://peddy-1002.netlify.app/"
+        },
+        {
+            "title": "Car Rental",
+            "cover": "/ss-4.png",
+            "liveUrl": "https://cerulean-kitten-16952f.netlify.app/"
+        },
+        {
+          "title":"Lost OF Items",
+            "cover":"/ss-5.png",
+            "liveUrl":"https://assingment11lostfound.web.app"  
+        },
+        {
+          "title":"Blood-Donations",
+            "cover":"/ss-6.png",
+            "liveUrl":"https://blood-donation-6ebb1.web.app"  
+        },
+        {
+            "title":"BPL-DREAM",
+              "cover":"/ss-7.png",
+              "liveUrl":"https://vengeful-lawyer.surge.sh/"  
+          },
+        {
+            "title":"Gadget-Heaven",
+              "cover":"/ss-8.png",
+              "liveUrl":"https://productsheaven.netlify.app/"  
+          },{
+            "title":"Winter-Donations",
+            "cover":"/ss-9.png",
+            "liveUrl":"https://assingment-09-b60dc.web.app/"  
+          }
+        
+    ],
+    "awards": [
+        {
+            "title": "Best Software Development Company",
+            "year": "2025",
+            "description": "Awarded for excellence in software development and innovative solutions.",
+            "imageUrl": "https://images.pexels.com/photos/6412280/pexels-photo-6412280.jpeg?auto=compress&cs=tinysrgb&w=600"
+        },
+        {
+            "title": "Best Software Development Company",
+            "year": "2024",
+            "description": "Awarded for excellence in software development and innovative solutions.",
+            "imageUrl": "https://images.pexels.com/photos/2963409/pexels-photo-2963409.jpeg?auto=compress&cs=tinysrgb&w=600"
+        },
+        {
+            "title": "Top Web Design Agency",
+            "year": "2023",
+            "description": "Recognized for outstanding web design and user experience enhancements.",
+            "imageUrl": "https://images.pexels.com/photos/6076501/pexels-photo-6076501.jpeg?auto=compress&cs=tinysrgb&w=600"
+        },
+        {
+            "title": "Innovation in Mobile Applications",
+            "year": "2022",
+            "description": "Honored for pioneering mobile app solutions that transformed user engagement.",
+            "imageUrl": "https://images.pexels.com/photos/6250962/pexels-photo-6250962.jpeg?auto=compress&cs=tinysrgb&w=600"
+        },
+        {
+            "title": "Excellence in Cloud Computing",
+            "year": "2021",
+            "description": "Celebrated for exceptional cloud solutions that enhanced business scalability.",
+            "imageUrl": "https://images.pexels.com/photos/7005236/pexels-photo-7005236.jpeg?auto=compress&cs=tinysrgb&w=600"
+        },
+        {
+            "title": "Outstanding IT Consultancy",
+            "year": "2020",
+            "description": "Acknowledged for providing top-tier IT consultancy services to global clients.",
+            "imageUrl": "https://images.pexels.com/photos/6250938/pexels-photo-6250938.jpeg?auto=compress&cs=tinysrgb&w=600"
+        }
+    ]
+}

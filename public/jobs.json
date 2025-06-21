@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "location": "Remote",
+      "type": "Full-time",
+      "description": "Build and maintain UI components using React and Tailwind.",
+      "applyLink": "https://company.com/jobs/frontend-dev"
+    },
+    {
+      "id": 2,
+      "title": "Product Designer",
+      "location": "Dhaka",
+      "type": "Contract",
+      "description": "Design intuitive user interfaces and experiences.",
+      "applyLink": "https://company.com/jobs/designer"
+    },
+    {
+      "id": 3,
+      "title": "Backend Engineer",
+      "location": "Chittagong",
+      "type": "Full-time",
+      "description": "Develop RESTful APIs and work with Node.js and MongoDB.",
+      "applyLink": "https://company.com/jobs/backend-engineer"
+    },
+    {
+      "id": 4,
+      "title": "Mobile App Developer",
+      "location": "Remote",
+      "type": "Part-time",
+      "description": "Create cross-platform mobile apps using React Native.",
+      "applyLink": "https://company.com/jobs/mobile-dev"
+    },
+    {
+      "id": 5,
+      "title": "DevOps Engineer",
+      "location": "Dhaka",
+      "type": "Full-time",
+      "description": "Manage CI/CD pipelines and cloud infrastructure on AWS.",
+      "applyLink": "https://company.com/jobs/devops"
+    },
+    {
+      "id": 6,
+      "title": "Content Writer",
+      "location": "Sylhet",
+      "type": "Freelance",
+      "description": "Write SEO-friendly content for blogs and marketing materials.",
+      "applyLink": "https://company.com/jobs/content-writer"
+    }
+  ]
+  
