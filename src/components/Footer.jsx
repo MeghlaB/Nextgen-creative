@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 const FooterSection = ({ siteData = [] }) => {
-    // console.log(siteData.services)
+    // WhatsApp number - directly using the provided number
+    const whatsappNumber = "6593427892";
+    
     return (
         <div
             className="footer-section bg-cover bg-center text-gray-500 py-12"
@@ -27,7 +29,7 @@ const FooterSection = ({ siteData = [] }) => {
                 <div>
                     <h2 className="text-xl font-bold mb-4 text-gray-700">SERVICES</h2>
                     <ul className="space-y-6 mt-6">
-                        {siteData.services.map((item, index) => {
+                        {siteData.services?.map((item, index) => {
                             return <li key={index}>
                                 <Link to="/services/" onClick={() => {window.scrollTo({top: 0,behavior: "smooth"});}}>{item.title}</Link>
                             </li>
@@ -39,9 +41,9 @@ const FooterSection = ({ siteData = [] }) => {
                 <div>
                     <h2 className="text-xl font-bold mb-4 text-gray-700">ABOUT US</h2>
                     <ul className="space-y-6 mt-6">
-                        <li ><Link to="/about/" onClick={() => {window.scrollTo({top: 0,behavior: "smooth"});}}>Overview</Link></li>
-                        <li ><Link to="/#why-choose-us" onClick={() => {window.scrollTo({top: 0,behavior: "smooth"});}}>Why us</Link></li>
-                        <li ><Link to="/awards" onClick={() => {window.scrollTo({top: 0,behavior: "smooth"});}}>Awards & Recognitions</Link></li>
+                        <li><Link to="/about/" onClick={() => {window.scrollTo({top: 0,behavior: "smooth"});}}>Overview</Link></li>
+                        <li><Link to="/#why-choose-us" onClick={() => {window.scrollTo({top: 0,behavior: "smooth"});}}>Why us</Link></li>
+                        <li><Link to="/awards" onClick={() => {window.scrollTo({top: 0,behavior: "smooth"});}}>Awards & Recognitions</Link></li>
                         <li><Link to="/team" onClick={() => {window.scrollTo({top: 0,behavior: "smooth"});}}>Team</Link></li>
                     </ul>
                 </div>
@@ -49,27 +51,28 @@ const FooterSection = ({ siteData = [] }) => {
                 {/* CONTACT INFO Column */}
                 <div>
                     <h2 className="text-xl font-bold mb-4 text-gray-700">CONTACT INFO</h2>
-                    <ul>
-                        <li >{siteData.siteAddress}</li>
-                        <li ><a href={`mailto:${siteData.siteEmail}`} className="hover:text-gray-400">{siteData.siteEmail}</a></li>
-                        <li >Mobile: <a href={`tel:${siteData.sitePhone}`} className="hover:text-gray-400">{siteData.sitePhone}</a></li>
+                    <ul className="space-y-2">
+                        <li>{siteData.siteAddress}</li>
+                        <li><a href={`mailto:${siteData.siteEmail}`} className="hover:text-gray-400">{siteData.siteEmail}</a></li>
+                        <li>Mobile: <a href={`tel:${siteData.sitePhone}`} className="hover:text-gray-400">{siteData.sitePhone}</a></li>
+                        <li>WhatsApp: <a href={`https://wa.me/${whatsappNumber}`} target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">{whatsappNumber}</a></li>
                     </ul>
                     <div className="flex space-x-4 mt-4">
                         {/* Social Media Icons */}
                         <a href={`https://facebook.com/${siteData.facebook}`} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-300">
-                            <FaFacebook />
+                            <FaFacebook size={20} />
                         </a>
                         <a href={`https://twitter.com/${siteData.twitter}`} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-300">
-                            <FaTwitter />
+                            <FaTwitter size={20} />
                         </a>
                         <a href={`https://instagram.com/${siteData.instagram}`} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-300">
-                            <FaInstagram />
+                            <FaInstagram size={20} />
                         </a>
                         <a href={`https://linkedin.com/in/${siteData.linkedin}`} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-300">
-                            <FaLinkedin />
+                            <FaLinkedin size={20} />
                         </a>
-                        <a href={`https://wa.me/${siteData.WhatsApp}`} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-300">
-                            <FaWhatsapp />
+                        <a href={`https://wa.me/${whatsappNumber}`} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-300">
+                            <FaWhatsapp size={20} />
                         </a>
                     </div>
                 </div>
