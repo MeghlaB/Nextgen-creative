@@ -1,0 +1,285 @@
+  "services": [
+        {
+          "id": "web-dev",
+          "title": "Web Development",
+          "description": "Building responsive and high-quality web applications.",
+          "image": "https://i.pinimg.com/originals/bb/37/5c/bb375cdd655184ca2715ac5059e73651.gif",
+          "pricingPlans": [
+            {
+              "name": "Basic",
+              "monthly": "$250",
+              "yearly": "$1999",
+              "features": [
+                "5 Custom Pages",
+                "Responsive Design",
+                "Basic SEO",
+                "1 Month Free Support"
+              ]
+            },
+            {
+              "name": "Green",
+              "monthly": "$299",
+              "yearly": "$2799",
+              "features": [
+                "10 Pages",
+                "Advanced SEO",
+                "Blog + CMS",
+                "3 Months Support"
+              ]
+            },
+            {
+              "name": "Enterprise",
+              "monthly": "$499",
+              "yearly": "$4999",
+              "features": [
+                "Unlimited Pages",
+                "Full-stack Development",
+                "Performance Optimization",
+                "6 Months Premium Support"
+              ],
+              "discountedPrice": {
+                "monthly": "$449",
+                "yearly": "$4499"
+              },
+              "offer": "Save $50 on Monthly Plan and $500 on Yearly Plan"
+            }
+          ]
+        },
+        {
+          "id": "mobile-app",
+          "title": "Mobile App Development",
+          "description": "Creating user-friendly and efficient mobile applications.",
+          "image": "https://img.flexifunnels.com/images/201/MobileAppDevelopment_a3ote_1000.gif",
+          "pricingPlans": [
+            {
+              "name": "Starter",
+              "monthly": "$249",
+              "yearly": "$2199",
+              "features": [
+                "Android or iOS App",
+                "Basic UI/UX",
+                "API Integration",
+                "1 Month Free Support"
+              ]
+            },
+            {
+              "name": "Green",
+              "monthly": "$399",
+              "yearly": "$3699",
+              "features": [
+                "Cross-platform (Flutter/React Native)",
+                "Advanced UI",
+                "Push Notifications",
+                "3 Months Support"
+              ]
+            },
+            {
+              "name": "Enterprise",
+              "monthly": "$499",
+              "yearly": "$4999",
+              "features": [
+                "Cross-platform (Flutter/React Native)",
+                "Advanced UI",
+                "Push Notifications",
+                "3 Months Support"
+              ],
+              "discountedPrice": {
+                "monthly": "$449",
+                "yearly": "$4499"
+              },
+              "offer": "Save $50 on Monthly Plan and $500 on Yearly Plan"
+            }
+          ]
+        },
+        {
+          "id": "ui-ux",
+          "title": "UI/UX Design",
+          "description": "Designing intuitive and engaging user interfaces.",
+          "image": "https://indoanalytica.com/static/images/Web-design-5.gif",
+          "pricingPlans": [
+            {
+              "name": "Basic",
+              "monthly": "$99",
+              "yearly": "$899",
+              "features": [
+                "2 Screen Designs",
+                "Mobile First",
+                "Figma Source",
+                "Design Revisions (2)"
+              ]
+            },
+            {
+              "name": "Green",
+              "monthly": "$199",
+              "yearly": "$1799",
+              "features": [
+                "Up to 10 Screens",
+                "Interactive Prototypes",
+                "Design System",
+                "Revisions (Unlimited)"
+              ]
+            },
+            {
+              "name": "Enterprise",
+              "monthly": "$499",
+              "yearly": "$4999",
+              "features": [
+                "Unlimited Screens",
+                "Interactive Prototypes",
+                "Design System",
+                "Revisions (Unlimited)"
+              ],
+              "discountedPrice": {
+                "monthly": "$449",
+                "yearly": "$4499"
+              },
+              "offer": "Save $50 on Monthly Plan and $500 on Yearly Plan"
+            }
+          ]
+        },
+        {
+          "id": "graphics",
+          "title": "Graphics Design",
+          "description": "Creating visually appealing and user-friendly graphic elements.",
+          "image": "https://www.globaldezigns.com/images/Flyers-Posters-Designing-page.gif",
+          "pricingPlans": [
+            {
+              "name": "Basic",
+              "monthly": "$59",
+              "yearly": "$599",
+              "features": [
+                "Social Media Posts (10/month)",
+                "Flyers",
+                "Poster Design"
+              ]
+            },
+            {
+              "name": "Green",
+              "monthly": "$129",
+              "yearly": "$1299",
+              "features": [
+                "Unlimited Posts",
+                "Logo & Branding",
+                "Animations",
+                "Ad Creatives"
+              ]
+            },
+            {
+              "name": "Enterprise",
+              "monthly": "$499",
+              "yearly": "$4999",
+              "features": [
+                "Unlimited Posts",
+                "Logo & Branding",
+                "Animations",
+                "Ad Creatives"
+              ],
+              "discountedPrice": {
+                "monthly": "$449",
+                "yearly": "$4499"
+              },
+              "offer": "Save $50 on Monthly Plan and $500 on Yearly Plan"
+            }
+          ]
+        },
+        {
+          "id": "custom-app",
+          "title": "Custom Application Development",
+          "description": "Building custom apps tailored to business needs with smooth performance.",
+          "image": "https://i.giphy.com/qgQUggAC3Pfv687qPC.webp",
+          "pricingPlans": [
+            {
+              "name": "Basic",
+              "monthly": "$399",
+              "yearly": "$3999",
+              "features": [
+                "One Platform Only",
+                "API Development",
+                "Custom Admin Panel",
+                "2 Months Free Support"
+              ]
+            },
+            {
+              "name": "Green",
+              "monthly": "$699",
+              "yearly": "$6799",
+              "features": [
+                "Cross Platform",
+                "Real-Time Features",
+                "Analytics Dashboard",
+                "Dedicated Support"
+              ]
+            },
+            {
+              "name": "Enterprise",
+              "monthly": "$499",
+              "yearly": "$4999",
+              "features": [
+                "Cross Platform",
+                "Real-Time Features",
+                "Analytics Dashboard",
+                "Dedicated Support"
+              ],
+              "discountedPrice": {
+                "monthly": "$449",
+                "yearly": "$4499"
+              },
+              "offer": "Save $50 on Monthly Plan and $500 on Yearly Plan"
+            }
+          ]
+        },
+        {
+          "id": "crm",
+          "title": "CRM Management System",
+          "description": "Developing tools to manage customer relationships efficiently.",
+          "image": "https://i0.wp.com/www.intechspace.com/wp-content/uploads/2023/01/CRM-animation-3.gif?w=1200&ssl=1",
+          "pricingPlans": [
+            {
+              "name": "Basic",
+              "monthly": "$199",
+              "yearly": "$1799",
+              "features": [
+                "Customer Database",
+                "Lead Tracking",
+                "Task Management"
+              ]
+            },
+            {
+              "name": "Green",
+              "monthly": "$349",
+              "yearly": "$3299",
+              "features": [
+                "Automation Tools",
+                "Advanced Reporting",
+                "Email Integration",
+                "User Roles & Permissions"
+              ]
+            },
+            {
+              "name": "Enterprise",
+              "monthly": "$499",
+              "yearly": "$4999",
+              "features": [
+                "Customer Database",
+                "Lead Tracking",
+                "Task Management",
+                "Automation Tools",
+                "Advanced Reporting"
+              ],
+              "discountedPrice": {
+                "monthly": "$449",
+                "yearly": "$4499"
+              },
+              "offer": "Save $50 on Monthly Plan and $500 on Yearly Plan"
+            }
+          ]
+        }
+      ]
+    ,
+
+
+
+
+
+    
+ 
