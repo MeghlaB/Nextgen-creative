@@ -11,6 +11,7 @@
     "linkedin": "",
   
     
+
      "services": [
     {
       "id": "web-dev",
@@ -19,8 +20,8 @@
       "image": "https://i.pinimg.com/originals/bb/37/5c/bb375cdd655184ca2715ac5059e73651.gif",
       "pricingPlans": [
         {
-          "name": "Fixed",
-          "monthly": "$250",
+          "name": "Basic",
+          "monthly": "$499",
           "yearly": "$1999",
           "features": [
             "5 Custom Pages",
@@ -31,7 +32,7 @@
         },
         {
           "name": "Standard",
-          "monthly": "$299",
+          "monthly": "$999",
           "yearly": "$2799",
           "features": [
             "10 Pages",
@@ -41,8 +42,8 @@
           ]
         },
         {
-          "name": "Enterprise",
-          "monthly": "$499",
+          "name": "Premium",
+          "monthly": "$1499",
           "yearly": "$4999",
           "features": [
             "Unlimited Pages",
@@ -57,6 +58,41 @@
             "yearly": "$4499"
           },
           "offer": "Save $50 on Monthly Plan and $500 on Yearly Plan"
+        },
+        {
+          "name": "CRM Software",
+          "monthly": "$599",
+          "yearly": "$5799",
+          "features": [
+            "Customer Database",
+            "Lead Tracking",
+            "Task Management",
+            "Email Integration",
+            "Advanced Reporting",
+            "User Roles & Permissions"
+          ],
+          "discountedPrice": {
+            "monthly": "$549",
+            "yearly": "$5499"
+          },
+          "offer": "Save $50 on Monthly Plan and $300 on Yearly Plan"
+        },
+        {
+          "name": "AI Automation",
+          "monthly": "$899",
+          "yearly": "$8599",
+          "features": [
+            "AI-Powered Workflows",
+            "Custom AI Models",
+            "24/7 Monitoring",
+            "Predictive Analytics",
+            "Dedicated AI Support"
+          ],
+          "discountedPrice": {
+            "monthly": "$849",
+            "yearly": "$8299"
+          },
+          "offer": "Save $50 on Monthly Plan and $300 on Yearly Plan"
         }
       ]
     },
@@ -67,41 +103,73 @@
       "image": "https://img.flexifunnels.com/images/201/MobileAppDevelopment_a3ote_1000.gif",
       "pricingPlans": [
         {
-          "name": "Fixed",
-          "monthly": "$249",
-          "yearly": "$2199",
+          "name": "Basic",
+          "monthly": "$499",
+          "yearly": "$1899",
           "features": [
-            "Android or iOS App",
+            "Single Platform",
             "Basic UI/UX",
             "API Integration",
-            "1 Month Free Support"
+            "Bug Fixes"
           ]
         },
         {
           "name": "Standard",
-          "monthly": "$399",
-          "yearly": "$3699",
+          "monthly": "$999",
+          "yearly": "$3399",
           "features": [
-            "Cross-platform (Flutter/React Native)",
+            "Cross-platform (Flutter)",
             "Advanced UI",
             "Push Notifications",
             "3 Months Support"
           ]
         },
         {
-          "name": "Enterprise",
-          "monthly": "$799",
-          "yearly": "$7799",
+          "name": "Premium",
+          "monthly": "1499",
+          "yearly": "$4999",
           "features": [
-            "Cross-platform (Flutter/React Native)",
-            "AI-Powered Analytics",
-            "Automated Backend",
-            "CRM Integration",
-            "Priority Support (24/7)"
+            "Cross-platform",
+            "Backend Integration",
+            "Payment Gateway",
+            "Admin Panel"
           ],
           "discountedPrice": {
-            "monthly": "$749",
-            "yearly": "$7499"
+            "monthly": "$949",
+            "yearly": "$4699"
+          },
+          "offer": "Save $50 on Monthly Plan and $300 on Yearly Plan"
+        },
+        {
+          "name": "CRM Software",
+          "monthly": "$599",
+          "yearly": "$5799",
+          "features": [
+            "User Management",
+            "Analytics",
+            "Notification System",
+            "Email Integration",
+            "Role-based Access"
+          ],
+          "discountedPrice": {
+            "monthly": "$549",
+            "yearly": "$5499"
+          },
+          "offer": "Save $50 on Monthly Plan and $300 on Yearly Plan"
+        },
+        {
+          "name": "AI Automation",
+          "monthly": "$899",
+          "yearly": "$8299",
+          "features": [
+            "AI-Powered Suggestions",
+            "Chatbot Integration",
+            "Data Sync",
+            "Performance Tracking"
+          ],
+          "discountedPrice": {
+            "monthly": "$849",
+            "yearly": "$7999"
           },
           "offer": "Save $50 on Monthly Plan and $300 on Yearly Plan"
         }
@@ -114,42 +182,74 @@
       "image": "https://indoanalytica.com/static/images/Web-design-5.gif",
       "pricingPlans": [
         {
-          "name": "Fixed",
-          "monthly": "$99",
+          "name": "Basic",
+          "monthly": "$499",
           "yearly": "$899",
           "features": [
-            "2 Screen Designs",
-            "Mobile First",
+            "2 Screens",
             "Figma Source",
-            "Design Revisions (2)"
+            "Mobile-First",
+            "2 Revisions"
           ]
         },
         {
           "name": "Standard",
-          "monthly": "$199",
-          "yearly": "$1799",
+          "monthly": "$999",
+          "yearly": "$1599",
           "features": [
             "Up to 10 Screens",
-            "Interactive Prototypes",
+            "Interactive Prototype",
             "Design System",
-            "Revisions (Unlimited)"
+            "Unlimited Revisions"
           ]
         },
         {
-          "name": "Enterprise",
-          "monthly": "$499",
-          "yearly": "$4999",
+          "name": "Premium",
+          "monthly": "$1499",
+          "yearly": "$3999",
           "features": [
-            "Unlimited Screens",
-            "AI-Powered Design Suggestions",
-            "CRM-Integrated UI",
-            "Dedicated Designer"
+            "Up to 25 Screens",
+            "Micro Interactions",
+            "Handoff to Dev",
+            "6 Months Support"
           ],
           "discountedPrice": {
             "monthly": "$449",
-            "yearly": "$4499"
+            "yearly": "$3699"
           },
-          "offer": "Save $50 on Monthly Plan and $500 on Yearly Plan"
+          "offer": "Save $50 on Monthly Plan and $300 on Yearly Plan"
+        },
+        {
+          "name": "CRM UI Kit",
+          "monthly": "$599",
+          "yearly": "$5799",
+          "features": [
+            "Dashboard Templates",
+            "User Flows",
+            "Custom Components",
+            "Branding Kit"
+          ],
+          "discountedPrice": {
+            "monthly": "$549",
+            "yearly": "$5499"
+          },
+          "offer": "Save $50 on Monthly Plan and $300 on Yearly Plan"
+        },
+        {
+          "name": "AI Design",
+          "monthly": "$899",
+          "yearly": "$8299",
+          "features": [
+            "AI-Generated Layouts",
+            "UX Optimization",
+            "Predictive Suggestions",
+            "Design Audit"
+          ],
+          "discountedPrice": {
+            "monthly": "$849",
+            "yearly": "$7999"
+          },
+          "offer": "Save $50 on Monthly Plan and $300 on Yearly Plan"
         }
       ]
     },
@@ -160,87 +260,69 @@
       "image": "https://www.globaldezigns.com/images/Flyers-Posters-Designing-page.gif",
       "pricingPlans": [
         {
-          "name": "Fixed",
-          "monthly": "$59",
+          "name": "Basic",
+          "monthly": "$499",
           "yearly": "$599",
           "features": [
-            "Social Media Posts (10/month)",
+            "10 Social Media Posts",
             "Flyers",
-            "Poster Design"
+            "Posters"
           ]
         },
         {
           "name": "Standard",
-          "monthly": "$129",
-          "yearly": "$1299",
-          "features": [
-            "Unlimited Posts",
-            "Logo & Branding",
-            "Animations",
-            "Ad Creatives"
-          ]
-        },
-        {
-          "name": "Enterprise",
-          "monthly": "$499",
-          "yearly": "$4999",
-          "features": [
-            "Unlimited Designs + Revisions",
-            "Motion Graphics (2/min每月)",
-            "AI-Based Design Tools",
-            "Dedicated Designer"
-          ],
-          "discountedPrice": {
-            "monthly": "$449",
-            "yearly": "$4499"
-          },
-          "offer": "Save $50 on Monthly Plan and $500 on Yearly Plan"
-        }
-      ]
-    },
-    {
-      "id": "custom-app",
-      "title": "Custom Application Development",
-      "description": "Building custom apps tailored to business needs with smooth performance.",
-      "image": "https://i.giphy.com/qgQUggAC3Pfv687qPC.webp",
-      "pricingPlans": [
-        {
-          "name": "Fixed",
-          "monthly": "$399",
-          "yearly": "$3999",
-          "features": [
-            "One Platform Only",
-            "API Development",
-            "Custom Admin Panel",
-            "2 Months Free Support"
-          ]
-        },
-        {
-          "name": "Standard",
-          "monthly": "$699",
-          "yearly": "$6799",
-          "features": [
-            "Cross Platform",
-            "Real-Time Features",
-            "Analytics Dashboard",
-            "Dedicated Support"
-          ]
-        },
-        {
-          "name": "Enterprise",
           "monthly": "$999",
-          "yearly": "$9799",
+          "yearly": "$999",
           "features": [
-            "AI-Driven Automation",
-            "CRM Integration",
-            "Custom Workflows",
-            "24/7 Priority Support"
+            "Logo Design",
+            "Branding",
+            "Unlimited Posts"
+          ]
+        },
+        {
+          "name": "Premium",
+          "monthly": "$1499",
+          "yearly": "$2999",
+          "features": [
+            "Animations",
+            "Ad Creatives",
+            "Illustrations"
           ],
           "discountedPrice": {
-            "monthly": "$949",
-            "yearly": "$9299"
+            "monthly": "$249",
+            "yearly": "$2699"
           },
-          "offer": "Save $50 on Monthly Plan and $500 on Yearly Plan"
+          "offer": "Save $50 on Monthly Plan and $300 on Yearly Plan"
+        },
+        {
+          "name": "Motion Pack",
+          "monthly": "$599",
+          "yearly": "$5599",
+          "features": [
+            "Motion Graphics",
+            "Video Intros",
+            "YouTube Thumbnails"
+          ],
+          "discountedPrice": {
+            "monthly": "$549",
+            "yearly": "$5299"
+          },
+          "offer": "Save $50 on Monthly Plan and $300 on Yearly Plan"
+        },
+        {
+          "name": "AI Design",
+          "monthly": "$799",
+          "yearly": "$7599",
+          "features": [
+            "AI-Assisted Art",
+            "Generative Assets",
+            "Unlimited Revisions"
+          ],
+          "discountedPrice": {
+            "monthly": "$749",
+            "yearly": "$7299"
+          },
+          "offer": "Save $50 on Monthly Plan and $300 on Yearly Plan"
         }
       ]
     },
@@ -251,8 +333,8 @@
       "image": "https://i0.wp.com/www.intechspace.com/wp-content/uploads/2023/01/CRM-animation-3.gif?w=1200&ssl=1",
       "pricingPlans": [
         {
-          "name": "fixed",
-          "monthly": "$199",
+          "name": "Basic",
+          "monthly": "$499",
           "yearly": "$1799",
           "features": [
             "Customer Database",
@@ -262,7 +344,7 @@
         },
         {
           "name": "Standard",
-          "monthly": "$349",
+          "monthly": "$999",
           "yearly": "$3299",
           "features": [
             "Automation Tools",
@@ -272,8 +354,8 @@
           ]
         },
         {
-          "name": "Enterprise",
-          "monthly": "$599",
+          "name": "Premium",
+          "monthly": "$1499",
           "yearly": "$5799",
           "features": [
             "AI-Powered Customer Insights",
@@ -286,6 +368,114 @@
             "yearly": "$5499"
           },
           "offer": "Save $50 on Monthly Plan and $300 on Yearly Plan"
+        },
+        {
+          "name": "Sales Suite",
+          "monthly": "$799",
+          "yearly": "$7599",
+          "features": [
+            "Sales Pipeline",
+            "Forecasting",
+            "Custom Dashboards"
+          ],
+          "discountedPrice": {
+            "monthly": "$749",
+            "yearly": "$7299"
+          },
+          "offer": "Save $50 on Monthly Plan and $300 on Yearly Plan"
+        },
+        {
+          "name": "AI CRM",
+          "monthly": "$999",
+          "yearly": "$9599",
+          "features": [
+            "Predictive Sales",
+            "Smart Workflows",
+            "Natural Language Reports"
+          ],
+          "discountedPrice": {
+            "monthly": "$949",
+            "yearly": "$9299"
+          },
+          "offer": "Save $50 on Monthly Plan and $300 on Yearly Plan"
+        }
+      ]
+    },
+    {
+      "id": "custom-app",
+      "title": "Custom Application Development",
+      "description": "Building custom apps tailored to business needs with smooth performance.",
+      "image": "https://i.giphy.com/qgQUggAC3Pfv687qPC.webp",
+      "pricingPlans": [
+        {
+          "name": "Basic",
+          "monthly": "$499",
+          "yearly": "$3999",
+          "features": [
+            "Single Platform Only",
+            "API Development",
+            "Basic Admin Panel",
+            "2 Months Free Support"
+          ]
+        },
+        {
+          "name": "Standard",
+          "monthly": "$999",
+          "yearly": "$6799",
+          "features": [
+            "Cross-Platform Support",
+            "Real-Time Features",
+            "Analytics Dashboard",
+            "Custom UI/UX"
+          ]
+        },
+        {
+          "name": "Premium",
+          "monthly": "$1499",
+          "yearly": "$9499",
+          "features": [
+            "Full Stack Development",
+            "Advanced Admin Panel",
+            "Cloud Hosting Setup",
+            "3rd Party Integrations"
+          ],
+          "discountedPrice": {
+            "monthly": "$949",
+            "yearly": "$8999"
+          },
+          "offer": "Save $50 on Monthly Plan and $500 on Yearly Plan"
+        },
+        {
+          "name": "AI Automation",
+          "monthly": "$1199",
+          "yearly": "$10999",
+          "features": [
+            "AI-Driven Features",
+            "Workflow Automation",
+            "Custom AI Models",
+            "Priority Debugging & Monitoring"
+          ],
+          "discountedPrice": {
+            "monthly": "$1149",
+            "yearly": "$10499"
+          },
+          "offer": "Save $50 on Monthly Plan and $500 on Yearly Plan"
+        },
+        {
+          "name": "Enterprise Suite",
+          "monthly": "$1499",
+          "yearly": "$13999",
+          "features": [
+            "Multi-Tenant Architecture",
+            "Custom Roles & Permissions",
+            "DevOps Support",
+            "Dedicated Project Manager"
+          ],
+          "discountedPrice": {
+            "monthly": "$1449",
+            "yearly": "$13499"
+          },
+          "offer": "Save $50 on Monthly Plan and $500 on Yearly Plan"
         }
       ]
     }

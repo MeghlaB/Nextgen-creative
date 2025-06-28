@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Roll } from "react-awesome-reveal";
 import { Typewriter } from "react-simple-typewriter";
 
-import meghlaImg from "../assets/web_meghla.png";
+import meghlaImg from "../assets/meghla.png";
 import arifImg from "../assets/arif.png";
 import samihaImg from "../assets/smaia.png";
 
