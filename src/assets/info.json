@@ -21,7 +21,7 @@
       "pricingPlans": [
         {
           "name": "Basic",
-          "monthly": "$499",
+          "monthly": "$199",
           "yearly": "$1999",
           "features": [
             "5 Custom Pages",
@@ -32,7 +32,7 @@
         },
         {
           "name": "Standard",
-          "monthly": "$999",
+          "monthly": "$290",
           "yearly": "$2799",
           "features": [
             "10 Pages",
@@ -43,7 +43,7 @@
         },
         {
           "name": "Premium",
-          "monthly": "$1499",
+          "monthly": "$490",
           "yearly": "$4999",
           "features": [
             "Unlimited Pages",
@@ -104,7 +104,7 @@
       "pricingPlans": [
         {
           "name": "Basic",
-          "monthly": "$499",
+          "monthly": "$199",
           "yearly": "$1899",
           "features": [
             "Single Platform",
@@ -115,7 +115,7 @@
         },
         {
           "name": "Standard",
-          "monthly": "$999",
+          "monthly": "$290",
           "yearly": "$3399",
           "features": [
             "Cross-platform (Flutter)",
@@ -126,7 +126,7 @@
         },
         {
           "name": "Premium",
-          "monthly": "1499",
+          "monthly": "$490",
           "yearly": "$4999",
           "features": [
             "Cross-platform",
@@ -183,7 +183,7 @@
       "pricingPlans": [
         {
           "name": "Basic",
-          "monthly": "$499",
+          "monthly": "$199",
           "yearly": "$899",
           "features": [
             "2 Screens",
@@ -194,7 +194,7 @@
         },
         {
           "name": "Standard",
-          "monthly": "$999",
+          "monthly": "$290",
           "yearly": "$1599",
           "features": [
             "Up to 10 Screens",
@@ -205,7 +205,7 @@
         },
         {
           "name": "Premium",
-          "monthly": "$1499",
+          "monthly": "$490",
           "yearly": "$3999",
           "features": [
             "Up to 25 Screens",
@@ -261,7 +261,7 @@
       "pricingPlans": [
         {
           "name": "Basic",
-          "monthly": "$499",
+          "monthly": "$199",
           "yearly": "$599",
           "features": [
             "10 Social Media Posts",
@@ -271,7 +271,7 @@
         },
         {
           "name": "Standard",
-          "monthly": "$999",
+          "monthly": "$290",
           "yearly": "$999",
           "features": [
             "Logo Design",
@@ -281,7 +281,7 @@
         },
         {
           "name": "Premium",
-          "monthly": "$1499",
+          "monthly": "$490",
           "yearly": "$2999",
           "features": [
             "Animations",
@@ -334,7 +334,7 @@
       "pricingPlans": [
         {
           "name": "Basic",
-          "monthly": "$499",
+          "monthly": "$199",
           "yearly": "$1799",
           "features": [
             "Customer Database",
@@ -344,7 +344,7 @@
         },
         {
           "name": "Standard",
-          "monthly": "$999",
+          "monthly": "$290",
           "yearly": "$3299",
           "features": [
             "Automation Tools",
@@ -355,7 +355,7 @@
         },
         {
           "name": "Premium",
-          "monthly": "$1499",
+          "monthly": "$490",
           "yearly": "$5799",
           "features": [
             "AI-Powered Customer Insights",
@@ -409,7 +409,7 @@
       "pricingPlans": [
         {
           "name": "Basic",
-          "monthly": "$499",
+          "monthly": "$199",
           "yearly": "$3999",
           "features": [
             "Single Platform Only",
@@ -420,7 +420,7 @@
         },
         {
           "name": "Standard",
-          "monthly": "$999",
+          "monthly": "$290",
           "yearly": "$6799",
           "features": [
             "Cross-Platform Support",
@@ -431,7 +431,7 @@
         },
         {
           "name": "Premium",
-          "monthly": "$1499",
+          "monthly": "$490",
           "yearly": "$9499",
           "features": [
             "Full Stack Development",
