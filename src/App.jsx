@@ -25,6 +25,8 @@ import BlogDetails from "./components/BlogDetails";
 import PublicBlogList from "./components/PublicBlogList";
 import Portfolio from "./components/Hooks/Portfolio";
 import CareerPage from "./pages/Careers";
+import Dashboard from "./components/Dashboard/Dashboard";
+import MainLayout from "./Layout/MainLayout";
 
 
 const App = () => {
@@ -335,86 +337,168 @@ const App = () => {
 
 
 
-    return isUserLoading ? (
-        <div className="fixed top-0 h-screen w-full bg-black/90 backdrop-blur-sm flex flex-col justify-center items-center z-50">
-            <BarLoader color="white" />
-            <div className="text-white mt-2">Please wait...</div>
-        </div>
-    ) : (
-        <Router>
-            <main className={`${darkMode ? "bg-[#131313] text-white dark" : "bg-white text-[#131313]"}`}>
-                <Navbar darkMode={darkMode} changeDarkMode={changeDarkMode} siteData={siteData}/>
-                <ToastContainer />
-                <div className={`relative z-0 mx-auto min-h-[80vh] `}>
-                    <Routes>
-                        <Route path="/" element={<Home brands={brands}/>} />
-                        {/* <Route path="/login" element={<Login user={user} onLogin={handleLogin} googleLogin={handleGoogleLogin} />} /> */}
+  return isUserLoading ? (
+  <div className="fixed top-0 h-screen w-full bg-black/90 backdrop-blur-sm flex flex-col justify-center items-center z-50">
+    <BarLoader color="white" />
+    <div className="text-white mt-2">Please wait...</div>
+  </div>
+) : (
+  <Router>
+    <Routes>
+      {/* Home */}
+      <Route
+        path="/"
+        element={
+          <MainLayout darkMode={darkMode} changeDarkMode={changeDarkMode} siteData={siteData}>
+            <Home brands={brands} />
+          </MainLayout>
+        }
+      />
 
-                        <Route path="/services" element={
-                            <section id="services" className="p-8 pt-16 mt-16">
-                             
-                                <Services details={siteData} />
-                            </section>
-                        } />
+      {/* Services */}
+      <Route
+        path="/services"
+        element={
+          <MainLayout darkMode={darkMode} changeDarkMode={changeDarkMode} siteData={siteData}>
+            <section id="services" className="p-8 pt-16 mt-16">
+              <Services details={siteData} />
+            </section>
+          </MainLayout>
+        }
+      />
 
-                        <Route path="/portfolio" element={
-                            <section id="projects" className="p-8 max-sm:p-1 pt-16 mt-16">
-                              
-                                <div>
-                                    <ProjectCards projects={"projects" in siteData ? siteData.projects:{}} />
-                                </div>
-                            </section>
-                        } />
+      {/* Portfolio */}
+      <Route
+        path="/portfolio"
+        element={
+          <MainLayout darkMode={darkMode} changeDarkMode={changeDarkMode} siteData={siteData}>
+            <section id="projects" className="p-8 max-sm:p-1 pt-16 mt-16">
+              <ProjectCards projects={"projects" in siteData ? siteData.projects : {}} />
+            </section>
+          </MainLayout>
+        }
+      />
 
-                        <Route path="/contact" element={
-                            <section id="contact" className="p-8 pt-16 mt-16">
-                                
-                                <ContactForm details={siteData} />
-                            </section>
-                        } />
+      {/* Contact */}
+      <Route
+        path="/contact"
+        element={
+          <MainLayout darkMode={darkMode} changeDarkMode={changeDarkMode} siteData={siteData}>
+            <section id="contact" className="p-8 pt-16 mt-16">
+              <ContactForm details={siteData} />
+            </section>
+          </MainLayout>
+        }
+      />
 
-                        <Route path="/about" element={
-                            <section id="contact" className="p-8 pt-16 mt-16">
-                                <div className="section-title mb-8">Abous US</div>
-                                <AboutUs details={siteData} />
-                            </section>
-                        } />
-                        
-                        <Route path="/team" element={
-                            <section id="contact" className="p-8 pt-16 mt-16">
-                                <div className="section-title mb-8">Meet with our team</div>
-                                <TeamPage />
-                            </section>
-                        } />
+      {/* About */}
+      <Route
+        path="/about"
+        element={
+          <MainLayout darkMode={darkMode} changeDarkMode={changeDarkMode} siteData={siteData}>
+            <section id="contact" className="p-8 pt-16 mt-16">
+              <div className="section-title mb-8">About Us</div>
+              <AboutUs details={siteData} />
+            </section>
+          </MainLayout>
+        }
+      />
 
-                        <Route path="/awards" element={
-                            <section id="contact" className="p-8 pt-16 mt-16">
-                                <div className="section-title mb-8">Our Awards & Recognitions</div>
-                                <AwardsPage details={siteData}/>
-                            </section>
-                        } />
+      {/* Team */}
+      <Route
+        path="/team"
+        element={
+          <MainLayout darkMode={darkMode} changeDarkMode={changeDarkMode} siteData={siteData}>
+            <section id="contact" className="p-8 pt-16 mt-16">
+              <div className="section-title mb-8">Meet with our team</div>
+              <TeamPage />
+            </section>
+          </MainLayout>
+        }
+      />
 
-                        <Route path="/pricing/:id" element={
-                            <section id="contact" className="p-8 pt-16 mt-16">
-                                <div className="section-title mb-8">About Pricing & Subscriptions</div>
-                                <PricingPage  details={siteData}/>
-                            </section>
-                        } />
+      {/* Awards */}
+      <Route
+        path="/awards"
+        element={
+          <MainLayout darkMode={darkMode} changeDarkMode={changeDarkMode} siteData={siteData}>
+            <section id="contact" className="p-8 pt-16 mt-16">
+              <div className="section-title mb-8">Our Awards & Recognitions</div>
+              <AwardsPage details={siteData} />
+            </section>
+          </MainLayout>
+        }
+      />
 
-                        <Route path="/application" element={<FormPage details={siteData} firebase={firebase}/> } />
+      {/* Pricing with dynamic ID */}
+      <Route
+        path="/pricing/:id"
+        element={
+          <MainLayout darkMode={darkMode} changeDarkMode={changeDarkMode} siteData={siteData}>
+            <section id="contact" className="p-8 pt-16 mt-16">
+              <div className="section-title mb-8">About Pricing & Subscriptions</div>
+              <PricingPage details={siteData} />
+            </section>
+          </MainLayout>
+        }
+      />
 
-                        <Route path="/admin" element={<AdminPage details={siteData} firebase={firebase}/> } />
-                        <Route path="/blogs/:postID" element={<BlogDetails firebase={firebase}/> } />
-                        <Route path="/blogs" element={<PublicBlogList firebase={firebase}/> } />
-                        <Route path="/careers" element={<CareerPage firebase={firebase}/> } />
+      {/* Application Form */}
+      <Route
+        path="/application"
+        element={
+          <MainLayout darkMode={darkMode} changeDarkMode={changeDarkMode} siteData={siteData}>
+            <FormPage details={siteData} firebase={firebase} />
+          </MainLayout>
+        }
+      />
 
-                        <Route path="*" element={<NotFoundPage darkMode={darkMode} />} />
-                    </Routes>
-                </div>
-                <Footer darkMode={darkMode}  siteData={siteData}/>
-            </main>
-        </Router>
-    );
+      {/* Blogs List */}
+      <Route
+        path="/blogs"
+        element={
+          <MainLayout darkMode={darkMode} changeDarkMode={changeDarkMode} siteData={siteData}>
+            <PublicBlogList firebase={firebase} />
+          </MainLayout>
+        }
+      />
+
+      {/* Blog Details */}
+      <Route
+        path="/blogs/:postID"
+        element={
+          <MainLayout darkMode={darkMode} changeDarkMode={changeDarkMode} siteData={siteData}>
+            <BlogDetails firebase={firebase} />
+          </MainLayout>
+        }
+      />
+
+      {/* Careers */}
+      <Route
+        path="/careers"
+        element={
+          <MainLayout darkMode={darkMode} changeDarkMode={changeDarkMode} siteData={siteData}>
+            <CareerPage firebase={firebase} />
+          </MainLayout>
+        }
+      />
+
+      {/* Route without Navbar/Footer */}
+      <Route path="/dashboard" element={<Dashboard />}  firebase={firebase}/>
+      <Route path="/admin" element={<AdminPage details={siteData} firebase={firebase} />} />
+
+      {/* 404 Not Found */}
+      <Route
+        path="*"
+        element={
+          <MainLayout darkMode={darkMode} changeDarkMode={changeDarkMode} siteData={siteData}>
+            <NotFoundPage darkMode={darkMode} />
+          </MainLayout>
+        }
+      />
+    </Routes>
+  </Router>
+);
 };
 
 export default App;
