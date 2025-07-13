@@ -1,15 +1,22 @@
 import {
+  BadgeDollarSign,
   BarChart2,
+  BookText,
   Boxes,
+  ChartNoAxesColumn,
+  ChartNoAxesCombined,
   Home,
+  Lock,
+  Settings,
+  SlidersVertical,
   User2,
   UserPlus,
+  Users,
 } from "lucide-react";
 import React from "react";
 import { NavLink } from "react-router-dom";
 
 function AdminDashboard() {
-  // Active/inactive link styles
   const linkClass = ({ isActive }) =>
     `flex items-center gap-3 px-4 py-2 rounded-md font-medium transition-colors ${
       isActive
@@ -24,31 +31,94 @@ function AdminDashboard() {
         Admin Panel
       </div>
 
-      {/* Navigation */}
-      <nav className="flex flex-col gap-2">
+      {/* ROLE SELECTION */}
+      <h2 className="text-sm text-gray-400 uppercase mb-2">Role Selection</h2>
+      <nav className="space-y-2 mb-8">
+        <NavLink to="/dashboard/owner" className={linkClass}>
+        <div className="flex gap-3">
+  <SlidersVertical size={20} />
+          <span>Owner</span>
+        </div>
+        </NavLink>
+        <NavLink to="/dashboard/marketing-sales" className={linkClass}>
+        <div className="flex gap-3">
+ <ChartNoAxesCombined size={20} />
+          <span>Marketing & Sales</span>
+        </div>
+         
+        </NavLink>
+        <NavLink to="/dashboard/content-seo" className={linkClass}>
+        <div className="flex gap-3">
+ <BookText size={20} />
+          <span>Content & SEO</span>
+        </div>
+         
+        </NavLink>
+      </nav>
+
+      {/* MANAGEMENT */}
+      <h2 className="text-sm text-gray-400 uppercase mb-2">Management</h2>
+      <nav className="space-y-2 mb-8">
         <NavLink to="/dashboard" className={linkClass}>
-          <Home size={20} />
-          <span>Dashboard Home</span>
+        <div className="flex gap-3">
+<Home size={20} />
+          <span>Dashboard</span>
+        </div>
+          
         </NavLink>
-
-        <NavLink to="/dashboard/blog-management" className={linkClass}>
-          <Boxes size={20} />
-          <span>Blog Management</span>
+        <NavLink to="/dashboard/user-management" className={linkClass}>
+        <div className="flex gap-3">
+  <Users size={20} />
+          <span>User Management</span>
+        </div>
+        
         </NavLink>
-
-        <NavLink to="/dashboard/add-blog" className={linkClass} >
-          <UserPlus size={20} />
-          <span>Add Blog</span>
+        <NavLink to="/dashboard/projects" className={linkClass}>
+        <div className="flex gap-3">
+     <Boxes size={20} />
+          <span>Projects</span>
+        </div>
+     
         </NavLink>
-
-        <NavLink to="/dashboard/alluser" className={linkClass}>
-          <User2 size={20} />
-          <span>All Users</span>
+        <NavLink to="/dashboard/billing" className={linkClass}>
+        <div className="flex gap-3">
+  <BadgeDollarSign size={20} />
+          <span>Billing & Invoices</span>
+        </div>
+        
         </NavLink>
+        <NavLink to="/dashboard/analytics" className={linkClass}>
+         <div className="flex gap-3">
+ <ChartNoAxesColumn size={20} />
+          <span>Analytics</span>
+        </div>
+         
+        </NavLink>
+        <NavLink to="/dashboard/audit" className={linkClass}>
+        <div className="flex gap-3">
+<BookText size={20} />
+          <span>Audit Logs</span>
+        </div>
+          
+        </NavLink>
+      </nav>
 
-        <NavLink to="/dashboard/application" className={linkClass}>
-          <BarChart2 size={20} />
-          <span>Applications</span>
+      {/* SYSTEM */}
+      <h2 className="text-sm text-gray-400 uppercase mb-2">System</h2>
+      <nav className="space-y-2">
+        <NavLink to="/dashboard/settings" className={linkClass}>
+        <div className="flex gap-3">
+<Settings size={20} />
+          <span>Settings</span>
+        </div>
+          
+        </NavLink>
+        <NavLink to="/dashboard/permissions" className={linkClass}>
+        <div className="flex gap-3">
+<Lock size={20} />
+          <span>Permissions</span>
+        </div>
+          
         </NavLink>
       </nav>
     </aside>
