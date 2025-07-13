@@ -30,6 +30,7 @@ import MainLayout from "./Layout/MainLayout";
 import OwnerPage from "./components/Dashboard/Admindashboard/OwnerPage";
 import MarketingPage from "./components/Dashboard/Admindashboard/MarketingPage ";
 import ContentSeoPage from "./components/Dashboard/Admindashboard/ContentSeoPage";
+import Usermanagement from "./components/Dashboard/Admindashboard/Usermanagement";
 
 const App = () => {
   // const [user, setUser] = useState(null);
@@ -484,7 +485,7 @@ const App = () => {
           <Route path="owner" element={<OwnerPage />} />
           <Route path="marketing-sales" element={<MarketingPage />} />
           <Route path="content-seo" element={<ContentSeoPage />} />
-          {/* <Route path="user-management" element={<UserManagementPage />} /> */}
+          <Route path="user-management" element={<Usermanagement />} />
         </Route>
         <Route
           path="/admin"

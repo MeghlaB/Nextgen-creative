@@ -1,5 +1,55 @@
 import { DollarSign, FolderKanban, HeartHandshake, Layers, Users } from "lucide-react";
 import React from "react";
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  Tooltip,
+  CartesianGrid,
+  Legend,
+  ResponsiveContainer,
+} from "recharts";
+
+const data = [
+  { month: "Jan", revenue: 10, projects: 8 },
+  { month: "Feb", revenue: 15, projects: 12 },
+  { month: "Mar", revenue: 25, projects: 18 },
+  { month: "Apr", revenue: 35, projects: 26 },
+  { month: "May", revenue: 45, projects: 33 },
+  { month: "Jun", revenue: 55, projects: 38 },
+];
+
+const teamPerformance = [
+  { team: "Marketing Team", progress: 52, color: "bg-blue-500" },
+  { team: "Content & SEO Team", progress: 87, color: "bg-green-500" },
+  { team: "Design Team", progress: 95, color: "bg-purple-500" },
+  { team: "Development Team", progress: 89, color: "bg-yellow-500" },
+];
+
+const recentActivities = [
+  {
+    title: 'New project "E-commerce Redesign" created',
+    time: "5 minutes ago by Sarah Johnson",
+    color: "bg-blue-400",
+  },
+  {
+    title: "Michael Chen joined the Content Team",
+    time: "1 hour ago by HR department",
+    color: "bg-green-400",
+  },
+  {
+    title: "Invoice #3245 paid by TechCorp",
+    time: "3 hours ago by Finance Department",
+    color: "bg-yellow-400",
+  },
+  {
+    title: 'New comment on "Digital Marketing Strategy" blog post',
+    time: "5 hours ago by Olivia Martin",
+    color: "bg-purple-400",
+  },
+];
+
 
 const OwnerPage = () => {
     const stats = [
@@ -64,6 +114,87 @@ const OwnerPage = () => {
           <div className="text-sm text-green-600 mt-1">{item.change}</div>
         </div>
       ))}
+    </div>
+    {/* Performance  */}
+     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
+      {/* Performance Overview */}
+      <div className="bg-white rounded-lg shadow p-4 col-span-2">
+        <div className="flex justify-between items-center mb-4">
+          <h2 className="text-lg font-semibold">Performance Overview</h2>
+          <div className="space-x-1">
+            <button className="text-sm bg-gray-100 px-2 py-1 rounded">Weekly</button>
+            <button className="text-sm bg-blue-500 text-white px-2 py-1 rounded">Monthly</button>
+            <button className="text-sm bg-gray-100 px-2 py-1 rounded">Yearly</button>
+          </div>
+        </div>
+        <ResponsiveContainer width="100%" height={250}>
+          <LineChart data={data}>
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="month" />
+            <YAxis />
+            <Tooltip />
+            <Legend />
+            <Line type="monotone" dataKey="revenue" stroke="#3B82F6" name="Revenue" />
+            <Line type="monotone" dataKey="projects" stroke="#10B981" name="Projects" />
+          </LineChart>
+        </ResponsiveContainer>
+      </div>
+
+      {/* Quick Actions */}
+      <div className="bg-white rounded-lg shadow p-4 space-y-2">
+        <h2 className="text-lg font-semibold mb-2">Quick Actions</h2>
+        <button className="w-full text-left bg-blue-100 hover:bg-blue-200 text-blue-800 font-medium px-3 py-2 rounded">
+          ➕ Create New Project
+        </button>
+        <button className="w-full text-left bg-green-100 hover:bg-green-200 text-green-800 font-medium px-3 py-2 rounded">
+          👤 Add New Team Member
+        </button>
+        <button className="w-full text-left bg-purple-100 hover:bg-purple-200 text-purple-800 font-medium px-3 py-2 rounded">
+          📊 Generate Reports
+        </button>
+        <button className="w-full text-left bg-yellow-100 hover:bg-yellow-200 text-yellow-800 font-medium px-3 py-2 rounded">
+          📅 Schedule Meeting
+        </button>
+        <button className="w-full text-left bg-red-100 hover:bg-red-200 text-red-800 font-medium px-3 py-2 rounded">
+          ⚠️ View Urgent Tasks
+        </button>
+      </div>
+    </div>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
+      {/* Team Performance */}
+      <div className="bg-white rounded-lg shadow p-4">
+        <h2 className="text-lg font-semibold mb-4">Team Performance</h2>
+        {teamPerformance.map((item, idx) => (
+          <div key={idx} className="mb-4">
+            <div className="flex justify-between mb-1">
+              <span className="text-sm font-medium">{item.team}</span>
+              <span className="text-sm text-gray-600">{item.progress}%</span>
+            </div>
+            <div className="w-full bg-gray-200 rounded-full h-3">
+              <div
+                className={`${item.color} h-3 rounded-full`}
+                style={{ width: `${item.progress}%` }}
+              ></div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Recent Activity */}
+      <div className="bg-white rounded-lg shadow p-4">
+        <h2 className="text-lg font-semibold mb-4">Recent Activity</h2>
+        <ul className="space-y-4">
+          {recentActivities.map((activity, idx) => (
+            <li key={idx} className="flex items-start space-x-3">
+              <div className={`w-3 h-3 mt-1 rounded-full ${activity.color}`} />
+              <div>
+                <p className="text-sm font-medium text-gray-800">{activity.title}</p>
+                <p className="text-xs text-gray-500">{activity.time}</p>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
     </div>
   );
