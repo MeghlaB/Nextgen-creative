@@ -25,7 +25,7 @@ function AdminDashboard() {
     }`;
 
   return (
-    <aside className="h-screen w-[250px] bg-gray-900 text-white px-4 py-6 hidden md:flex flex-col fixed top-0 left-0 z-40 shadow-lg">
+    <aside className="h-screen w-[250px] bg-gray-900 text-white px-4 py-5 hidden md:flex flex-col fixed top-0 left-0 z-40 shadow-lg">
       {/* Sidebar Title */}
       <div className="text-2xl font-bold mb-10 text-center tracking-wide border-b border-gray-700 pb-4">
         Admin Panel
@@ -41,13 +41,13 @@ function AdminDashboard() {
           </div>
         </NavLink>
         <NavLink to="/dashboard/marketing-sales" className={linkClass}>
-          <div className="flex gap-3">
+          <div className="flex gap-4">
             <ChartNoAxesCombined size={20} />
             <span>Marketing & Sales</span>
           </div>
         </NavLink>
         <NavLink to="/dashboard/content-seo" className={linkClass}>
-          <div className="flex gap-3">
+          <div className="flex gap-4">
             <BookText size={20} />
             <span>Content & SEO</span>
           </div>
